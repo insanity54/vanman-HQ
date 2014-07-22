@@ -1,0 +1,28 @@
+{
+  "name": "vanman-HQ",
+  "version": "0.0.0",
+  "description": "vanman-HQ =========",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha test.js --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/insanity54/vanman-HQ"
+  },
+  "author": "Chris Grimmett <chris@grimtech.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/insanity54/vanman-HQ/issues"
+  },
+  "dependencies": {
+    "express": "~4.6.1",
+    "nconf": "~0.6.9"
+  },
+  "devDependencies": {
+    "mocha": "~1.20.1",
+    "should": "~4.0.4",
+    "supertest": "~0.13.0"
+  }
+}
